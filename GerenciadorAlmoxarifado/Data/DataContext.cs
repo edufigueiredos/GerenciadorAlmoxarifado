@@ -13,5 +13,9 @@ namespace GerenciadorAlmoxarifado.Data
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Movement> Movements { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Branch> Branches { get; set; }
+        public DbSet<Provider> Providers { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<Sector> Sectors { get; set; }
     }
 }

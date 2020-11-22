@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 
 namespace GerenciadorAlmoxarifado.Models
 {
-    public class Employee
+    public class Employee : IMover
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Role { get; set; }
-        public string Sector { get; set; }
+        public string Lastname { get; set; }
         public string UniformSize { get; set; }
         public int ShoesSize { get; set; }
         public int SleevesSize { get; set; }
+        public int RoleId { get; set; }
+        public Role Role { get; set; }
     }
 }
