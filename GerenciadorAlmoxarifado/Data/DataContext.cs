@@ -17,5 +17,6 @@ namespace GerenciadorAlmoxarifado.Data
         public DbSet<Provider> Providers { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Sector> Sectors { get; set; }
+        public DbSet<MoverType> MoverTypes { get; set; }
     }
 }

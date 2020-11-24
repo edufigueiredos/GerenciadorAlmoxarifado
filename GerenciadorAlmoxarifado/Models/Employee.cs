@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GerenciadorAlmoxarifado.Models
 {
-    public class Employee : IMover
+    public class Employee
     {
         public int Id { get; set; }
         public string Name { get; set; }
